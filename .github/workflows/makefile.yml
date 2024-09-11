@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: dabao1955/kernel_build_action@main
+      uses: dabao1955/kernel_build_action@add-lxc
       with:
           kernel-url: https://github.com/Kalloer1/android_kernel_oppo_msm8937
           kernel-dir: msm-4.9
