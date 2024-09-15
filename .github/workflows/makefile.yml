@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@add-lxc
       with:
-          kernel-url: https://github.com/color597/android_kernel_oppo_a57
+          kernel-url: https://gitlab.com/TipzTeam/android-trees/android_kernel_oppo_msm8937
           kernel-dir: msm-4.9
           kernel-branch: main
           config: lineageos_A57_defconfig
@@ -24,7 +24,7 @@ jobs:
           aosp-clang: true
           ksu: true
           ksu-version: main
-          android-version: 6
+          android-version: 12
           aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
