@@ -1,5 +1,11 @@
 
 ##签到
+export ty_username='17606835667'
+export ty_password='Tianyi12@'
+
+
+export enshanck='rHEX_2132_saltkey=ZnYgNVYk; rHEX_2132_lastvisit=1724028169; _dx_captcha_cid=19271343; _dx_uzZo5y=26f4d11d1b992a61cc738948f800a72367438dbb1d0f2e6d98fbbe8b825ca9fa7e1838c4; _dx_FMrPY6=66cd9a6abG9Mmarye4eX51lUwlyIMpMjzmkK9Fn1; _dx_app_captchadiscuzpluginbydingxiang2017=66cd9a6abG9Mmarye4eX51lUwlyIMpMjzmkK9Fn1; Hm_lvt_4fd617216d6743edf4851b17882cdd82=1724750440,1725195473; https_waf_cookie=1dd26c1c-1d01-4dfda6fdc9c941dac89279bd3344fc9498d8; rHEX_2132_pc_size_c=0; rHEX_2132_ulastactivity=1725345747%7C0; rHEX_2132_auth=e2edfhJ8yDJ2046VlR2D9e0PCsgy0AnA62tRyee%2BTWRe6OoD4nMQ0qGmIsiRGXjnID5iX29NoILVIQmJwJNKbe%2FRzBA; rHEX_2132_sid=0; rHEX_2132_lastact=1725345752%09home.php%09spacecp; rHEX_2132_connect_is_bind=0; rHEX_2132_noticeTitle=1'
+export plustoken = '53e19daa9cfd416c85018cf924e3c0cd'
 
 
 
