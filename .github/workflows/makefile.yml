@@ -1,0 +1,30 @@
+# A simple action usage
+name: Build Kernel
+on:
+  workflow_dispatch:
+
+jobs:
+  Build-Kernel:
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+    - name: Build Kernel
+      uses: dabao1955/kernel_build_action@add-lxc
+      with:
+          kernel-url: https://gitlab.com/TipzTeam/android-trees/android_kernel_oppo_msm8937
+          kernel-dir: msm-4.9
+          kernel-branch: main
+          config: lineageos_A57_defconfig
+          arch: arm64
+          aosp-gcc: true
+          aosp-clang: true
+          ksu: true
+          ksu-version: main
+          android-version: 12
+          aosp-clang-version: r383902
+          disable-lto: true
+          anykernel3: true
